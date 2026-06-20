@@ -1,8 +1,8 @@
 from langchain.agents import create_agent
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-from core.config import MODEL
-from core.prompts import system_prompt_profissional, system_prompt_parceria, system_prompt_investidor, system_prompt_empresa
+from src.core.config import MODEL
+from src.core.prompts import system_prompt_profissional, system_prompt_parceria, system_prompt_investidor, system_prompt_empresa
 
 model = ChatGoogleGenerativeAI(model=MODEL)
 
